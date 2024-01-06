@@ -1,0 +1,564 @@
+/*RESPONSIVE DEVICE MEDIA 1400PX*/
+@media (min-width: 1400px){
+	.container {
+		max-width: 1200px !important;
+	}
+
+}
+
+/*RESPONSIVE DEVICE MEDIA 1200PX*/
+@media (max-width: 1200px){
+	#slider-home svg {
+		bottom: -56px;
+	}
+}
+
+/*RESPONSIVE DEVICE MEDIA 991PX*/
+@media (max-width: 991px)  {
+	#main-menu {
+		margin-top: 3px;
+		text-align: right;
+	}
+	
+	.slider-content{
+		margin-bottom: 30px;
+	}
+	
+
+	.about_content,
+	.why_choose_content 
+	{
+		margin-top: 40px;
+		padding-left: 0;
+	}
+	.single-roadmap .number,
+	.single-roadmap.right .number{
+		position: relative;
+		left: 0;
+	}
+	.roadmap-text {
+		width: 100%;
+		margin-top: 36px;
+	}	
+	.roadmap-text span,
+	.single-roadmap.right span	{
+		left: 23%;
+	}	
+	.single-roadmap::before{
+		display: none;
+	}
+	.contact-form{
+		margin-bottom: 40px;
+	}
+	
+	
+	#testimonial-slider{
+		width: 80%;
+		margin-right: 85px;
+	}
+	#testimonial-slider button.slick-arrow,
+	.testi_img_area h3,
+	.testi_img_area p{
+
+		display: none!important;
+	}
+}
+
+/*RESPONSIVE DEVICE MEDIA 768PX*/
+@media only screen and (max-width:768px) { 
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 580px;
+	}
+	.slider-content h2 {
+		color: #fff;
+		margin-bottom: 15px;
+		display: block;
+		font-size: 43px;
+		line-height: 56px;
+		text-align: center;
+	}
+	.d-flex.gap-5 {
+		display: block !important;
+		text-align: center;
+	}
+	p.pb-3 {
+		text-align: center;
+	}
+	.d-flex{
+		display: block !important;
+	}
+	.section-title {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	#Mangaing {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/men-img.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: right;
+		padding: 0px;
+		background-position-y: 0px;
+	}
+	
+	img.nn {
+		display: none;
+	}
+	ul.d-flex.justify-content-end.gap-4 {
+		display: flex !important;
+	}
+	.testimonial-card {
+		flex: 0 0 auto;
+		width: 100%;
+		display: none;
+	}
+	.end.pt-115 {
+		padding-top: 19px;
+		text-align: start;
+		padding-left: 0%;
+	}
+	.w-60 {
+		width: 100%;
+	}
+	.w-60 {
+		width: 100%;
+	}
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 90px;
+	}
+	img.phinehand {
+		width: 100%;
+	}
+	.section-title {
+		margin-bottom: 60px;
+		max-width: 100% !important;
+		width: 100%;
+		padding-right: 0px !important;
+	}
+	.section-padding {
+		padding: 2px;
+	}
+	#team {
+		background-image: none;
+		
+	}
+	.pl-5 {
+		padding-left: 10px !important;
+		width: 100%;
+		padding-right: 0px !important;
+		padding-top: 20px;
+	}
+	.single-team {
+		background-color: #4f4f4fe8;
+		padding: 16px;
+		border-radius: 30px;
+		margin-bottom: 30px;
+		height: 90%;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.side{ 
+		padding-left: 0px;
+	}
+	img.w-250 {
+		width: 120% !important;
+	}
+	h1.text-white {
+		text-align: center;
+	}
+	.space {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 767px){
+	#slider-home svg {
+		bottom: -30px;
+	}
+	#main-menu{
+		display: none;
+		
+	}
+	#mobile_menu{
+		display: block;
+		width: 100%;
+		margin-top: 10px;	
+	}
+	.slicknav_nav {
+		text-align: left;
+	}
+	.testi_img_area{
+		display: none;
+	}
+	.sl_reserve{
+		text-align: left;
+		padding-top: 20px;
+	}
+	#topcontrol{
+		display: none;
+	}
+	.testimonials_slider button.slick-arrow{
+		display: none!important;
+	}
+	.single-auction,
+	.single-auction img,
+	.single-team img{
+		width: 20%;
+		height: auto;
+	}
+	.single-auction .creator img{
+		max-width: 100%;
+		width: auto;
+	}	
+	img.w-20 {
+		width: 100%;
+	}
+	#Mangaing {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/men-img.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: right;
+		padding: 0px;
+		background-position-y: 0px;
+	}
+	.end.pt-115 {
+		padding-top: 19px;
+		text-align: start;
+		padding-left: 0%;
+	}
+	.w-60 {
+		width: 100%;
+	}
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 90px;
+	}	
+	img.phinehand {
+		width: 100%;
+	}
+	.section-title {
+		margin-bottom: 60px;
+		max-width: 100% !important;
+		width: 100%;
+		padding-right: 0px !important;
+	}
+	#team {
+		background-image: none;
+		
+	}
+	.single-team {
+		background-color: #4f4f4fe8;
+		padding: 16px;
+		border-radius: 30px;
+		margin-bottom: 30px;
+		height: 90%;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.side{ 
+		padding-left: 0px;
+	}
+
+	
+
+}
+
+/*RESPONSIVE DEVICE MEDIA 575PX*/
+@media (max-width: 575px)  {
+  
+	#mobile_menu{
+		margin-top: 0!important;
+	}
+	
+	.slicknav_nav ul{
+		padding: 0;
+	}
+	.slicknav_nav a{
+		padding: 5px 15px;
+		margin: 2px 0px;
+	}
+	#navigation.navbar-fixed{
+		padding: 15px 0 0;
+	}
+	.slicknav_btn {
+		top: 20px;
+		right: 15px;
+		position: absolute;
+	}
+	.slider_area .slick-arrow{
+	    display: none!important;
+	}
+    
+	.roadmap-text span,
+	.single-roadmap.right span	{
+        left: 0;
+        padding-left: 127px;
+	}	
+	img.w-20 {
+		width: 100%;
+	}	
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 580px;
+	}
+	.slider-content h2 {
+		color: #fff;
+		margin-bottom: 15px;
+		display: block;
+		font-size: 43px;
+		line-height: 56px;
+		text-align: center;
+	}
+	.d-flex.gap-5 {
+		display: block !important;
+		text-align: center;
+	}
+	p.pb-3 {
+		text-align: center;
+	}
+	.d-flex{
+		display: block !important;
+	}
+	.section-title {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	
+	section#aboutt {
+		margin-top: 0px;
+	}
+	img.nn {
+		display: none;
+	}
+	.writen-part {
+		position: relative;
+		padding-left: 3%;
+		padding-top: 24px;
+
+	}
+	ul.d-flex.justify-content-end.gap-4 {
+		display: flex !important;
+	}
+	.testimonial-card {
+		flex: 0 0 auto;
+		width: 100%;
+		display: none;
+	}
+	.end.pt-115 {
+		padding-top: 19px;
+		text-align: start;
+		padding-left: 0%;
+	}
+	.w-60 {
+		width: 100%;
+	}
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 90px;
+	}
+	img.phinehand {
+		width: 100%;
+	}
+	.section-title {
+		margin-bottom: 60px;
+		max-width: 100% !important;
+		width: 100%;
+		padding-right: 0px !important;
+	}
+	.section-padding {
+		padding: 2px;
+	}
+	#team {
+		background-image: none;
+		
+	}
+	.pl-5 {
+		padding-left: 10px !important;
+		width: 100%;
+		padding-right: 0px !important;
+		padding-top: 20px;
+	}
+	.single-team {
+		background-color: #4f4f4fe8;
+		padding: 16px;
+		border-radius: 30px;
+		margin-bottom: 30px;
+		height: 90%;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.side{ 
+		padding-left: 0px;
+	}
+	img.w-250 {
+		width: 120% !important;
+	}
+	h1.text-white {
+		text-align: center;
+	}
+	.space {
+		text-align: center;
+	}
+}
+
+/*RESPONSIVE DEVICE MEDIA 480PX*/
+@media (max-width: 480px)  {
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 580px;
+	}
+	.slider-content h2 {
+		color: #fff;
+		margin-bottom: 15px;
+		display: block;
+		font-size: 43px;
+		line-height: 56px;
+		text-align: center;
+	}
+	.d-flex.gap-5 {
+		display: block !important;
+		text-align: center;
+	}
+	p.pb-3 {
+		text-align: center;
+	}
+	.d-flex{
+		display: block !important;
+	}
+	.section-title {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	#Mangaing {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/men-img.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: right;
+		padding: 0px;
+		background-position-y: 0px;
+	}
+	
+	section#aboutt {
+		margin-top: 0px;
+	}
+	img.nn {
+		display: none;
+	}
+	.writen-part {
+		position: relative;
+		padding-left: 3%;
+		padding-top: 24px;
+	}
+	ul.d-flex.justify-content-end.gap-4 {
+		display: flex !important;
+	}
+	.testimonial-card {
+		flex: 0 0 auto;
+		width: 100%;
+		display: none;
+	}
+	.end.pt-115 {
+		padding-top: 19px;
+		text-align: start;
+		padding-left: 0%;
+	}
+	.w-60 {
+		width: 100%;
+	}
+	.home-slider {
+		background-image: url(/Users/hupen/Desktop/Dark-Kuber-2.0/img/mob.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		padding: 0px;
+		background-position-y: 100px;
+		padding-top: 90px;
+	}
+	img.phinehand {
+		width: 100%;
+	}
+	.section-title {
+		margin-bottom: 60px;
+		max-width: 100% !important;
+		width: 100%;
+		padding-right: 0px !important;
+	}
+	.section-padding {
+		padding: 2px;
+	}
+	#team {
+		background-image: none;
+		
+	}
+	.pl-5 {
+		padding-left: 10px !important;
+		width: 100%;
+		padding-right: 0px !important;
+		padding-top: 20px;
+	}
+	.single-team {
+		background-color: #4f4f4fe8;
+		padding: 16px;
+		border-radius: 30px;
+		margin-bottom: 30px;
+		height: 90%;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.side{ 
+		padding-left: 0px;
+	}
+	img.w-250 {
+		width: 120% !important;
+	}
+	h1.text-white {
+		text-align: center;
+	}
+	.space {
+		text-align: center;
+	}
+	
+
+	
+}
+
+
+
+/*RESPONSIVE DEVICE MEDIA 360PX*/
+@media (max-width: 360px)  {
+
+	
+}
+
